@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:white;
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: poppins;
+    background-image: url(https://source.unsplash.com/random);
+    background-size: 100vw 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    width: 400px;
+    height: fit-content;
+    background-color:rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 40px;
+    text-align: center;
+    gap:15px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.searchBar{
+    width: 100%;
+    text-align: center;
+    border:none;
+    border-bottom: 3px solid #F8B500;
+    background-color: transparent;
+    outline: none;
+    text-transform: capitalize;
+    font-size:16px;
+    font-weight: 500;
+    padding:5px;
+}
+h1{
+    color:#F8B500;
+    margin-bottom: 30px;
+}
+.city{
+    font-size:30px;
+    font-weight: 500;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.8);
+}
+.temp{
+    font-size:70px;
+    font-weight: 800;
+
+    text-shadow: 1px 5px rgba(0, 0, 0, 1);
+}
+.desc{
+    font-size:25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 1);
+    text-transform: capitalize;
+}
+.minmax{
+    font-size:20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 1);
+}
+.humidity{
+    font-size:20px;
+    font-weight: 500;
+    text-shadow: 1px 1px rgba(0, 0, 0, 1);
+
+}
+.icon{
+    background-color: transparent;
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100px 100px;
+}
